@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My DevOps Assignment</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; margin-top: 80px; background:#f4f4f4; }
+    h1 { color: #2c3e50; }
+    p { font-size: 18px; color: #34495e; }
+  </style>
+</head>
+<body>
+  <h1>Hello, I'm OM MOHAN CHAVAN</h1>
+  <p><b>College:</b> VISHVLATA COLLAGE NASHIK</p>
+  <p><b>Branch:</b> COMPUTER SCIENCE ]</p>
+  <p><b>Email:</b> chavhanom039@gmail.com</p>
+  <p><b>Date:</b> <span id="date"></span></p>
+  <script>
+    document.getElementById("date").innerText = new Date().toDateString();
+  </script>
+</body>
+</html>
